@@ -138,6 +138,26 @@ int compressJPEG(BYTE *data, int w, int h, int quality, const char *outputPath, 
 
     jpeg_set_quality(&jcs, quality, true);
 
+    jpeg_start_compress(&jcs, true);
+
+    JSAMPROW jsamprow[1];
+    int row_stride = jcs.image_width * 3;
+
+    while (jcs.next_scanline < jcs.image_height) {
+        jsamprow[0] = &data[jcs.next_scanline * row_stride];
+
+        jpeg_write_scanlines(&jcs, jsamprow, 1);
+    }
+
+    LOGI("optimize %d", jcs.optimize_coding);
+
+
+    jpeg_finish_compress(&jcs);
+
+    jpeg_destroy_compress(&jcs);
+
+    fclose(file);
+
     return 1;
 }
 
