@@ -1,5 +1,7 @@
 #include <jni.h>
 #include <string>
+#include <setjmp.h>
+#include "libjpeg-turbo/jpeglib.h"
 
 extern "C"
 JNIEXPORT jstring
