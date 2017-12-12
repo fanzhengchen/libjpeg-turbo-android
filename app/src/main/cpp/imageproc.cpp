@@ -2,7 +2,10 @@
 #include <string>
 #include <setjmp.h>
 #include "imageproc.h"
+#include <malloc.h>
 #include <assert.h>
+#include <memory>
+#include <android/bitmap.h>
 #include "libjpeg-turbo/jpeglib.h"
 
 
@@ -17,12 +20,13 @@ bool registerNatives(JNIEnv *env) {
     LOGE("register method %d", len);
 
     //Returns 0 on success; returns a negative value on failure.
-    if (!env->RegisterNatives(clazz, jniNativeMethod, len) ) {
+    if (!env->RegisterNatives(clazz, jniNativeMethod, len)) {
         LOGE("register success");
         return true; // register failed
     }
     return false; // register failed
 }
+
 
 extern "C"
 JNIEXPORT jint JNICALL JNI_OnLoad(JavaVM *vm, void *reserved) {
@@ -50,6 +54,93 @@ jint compressBitmap(JNIEnv *env, jclass jclazz, jobject bitmap, jint w, jint h, 
                     jstring outputFilePath, jboolean optimize) {
     LOGE("compress function called");
 
+    AndroidBitmapInfo bitmapInfo;
+    BYTE *pPixels;
+    BYTE *data;
+    BYTE *tmpData;
+    int ret;
+    if ((ret = AndroidBitmap_getInfo(env, bitmap, &bitmapInfo)) < 0) {
+        LOGE("AndroidBitmap Get info failed %d", ret);
+        return -1;
+    }
 
+    if ((ret = AndroidBitmap_lockPixels(env, bitmap, (void **) &pPixels))) {
+        LOGE("AndroidBitmap lock Pixels failed %d", ret);
+        return -1;
+    }
+
+    AndroidBitmap_unlockPixels(env, bitmap);
+
+
+    data = (BYTE *) malloc(w * h * 3);
+
+    tmpData = data;
+
+    for (int i = 0; i < w; ++i) {
+        for (int j = 0; j < h; ++j) {
+            int color = *((int *) pPixels);
+            BYTE r = (color >> 16) & MASK;
+            BYTE g = (color >> 8) & MASK;
+            BYTE b = (color) & MASK;
+            *data++ = r;
+            *data++ = g;
+            *data++ = b;
+            pPixels += 4;
+        }
+    }
+    LOGI("bitmap convert %d %d", w, h);
+
+    const char *path = env->GetStringUTFChars(outputFilePath, NULL);
+    LOGI("file path %s", path);
+    compressJPEG(data, w, h, quality, path, optimize);
     return 0;
+}
+
+int compressJPEG(BYTE *data, int w, int h, int quality, const char *outputPath, bool optimize) {
+
+    int nComponents = 3;
+    jpeg_compress_struct jcs;
+
+    error_msg errorMsg;
+    jcs.err = jpeg_std_error(&errorMsg.error_mgr);
+
+    errorMsg.error_mgr.error_exit = error_exit;
+
+    if (setjmp(errorMsg.setjmp_buf)) {
+        return 0;
+    }
+
+    jpeg_create_compress(&jcs);
+    FILE *file = fopen(outputPath, "wb");
+    if (file == NULL) {
+        LOGE("open file %s failed", outputPath);
+        return 0;
+    }
+    LOGI("open file %s success", outputPath);
+
+    jpeg_stdio_dest(&jcs, file);
+
+    jcs.image_width = w;
+    jcs.image_height = h;
+
+    LOGI("image compress optimize %d", optimize);
+
+    jcs.input_components = 3; // r g b all together is 3
+
+    if (nComponents == 1) {
+        jcs.in_color_space = JCS_GRAYSCALE;
+    } else {
+        jcs.in_color_space = JCS_RGB;
+    }
+
+    jpeg_set_defaults(&jcs);
+    jcs.optimize_coding = optimize;
+
+    jpeg_set_quality(&jcs, quality, true);
+
+    return 1;
+}
+
+void error_exit(j_common_ptr info) {
+    info->err;
 }
