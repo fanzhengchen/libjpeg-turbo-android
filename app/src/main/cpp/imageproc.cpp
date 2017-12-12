@@ -69,8 +69,6 @@ jint compressBitmap(JNIEnv *env, jclass jclazz, jobject bitmap, jint w, jint h, 
         return -1;
     }
 
-    AndroidBitmap_unlockPixels(env, bitmap);
-
 
     data = (BYTE *) malloc(w * h * 3);
 
@@ -82,17 +80,25 @@ jint compressBitmap(JNIEnv *env, jclass jclazz, jobject bitmap, jint w, jint h, 
             BYTE r = (color >> 16) & MASK;
             BYTE g = (color >> 8) & MASK;
             BYTE b = (color) & MASK;
-            *data++ = r;
-            *data++ = g;
-            *data++ = b;
+            *data = r;
+            ++data;
+            *data = g;
+            ++data;
+            *data = b;
+            ++data;
             pPixels += 4;
         }
     }
+
+
+    AndroidBitmap_unlockPixels(env, bitmap);
     LOGI("bitmap convert %d %d", w, h);
 
     const char *path = env->GetStringUTFChars(outputFilePath, NULL);
     LOGI("file path %s", path);
     compressJPEG(data, w, h, quality, path, optimize);
+
+    free(tmpData);
     return 0;
 }
 
@@ -125,7 +131,8 @@ int compressJPEG(BYTE *data, int w, int h, int quality, const char *outputPath, 
 
     LOGI("image compress optimize %d", optimize);
 
-    jcs.input_components = 3; // r g b all together is 3
+    jcs.arith_code = false;
+    jcs.input_components = nComponents; // r g b all together is 3
 
     if (nComponents == 1) {
         jcs.in_color_space = JCS_GRAYSCALE;
@@ -141,11 +148,10 @@ int compressJPEG(BYTE *data, int w, int h, int quality, const char *outputPath, 
     jpeg_start_compress(&jcs, true);
 
     JSAMPROW jsamprow[1];
-    int row_stride = jcs.image_width * 3;
+    int row_stride = jcs.image_width * nComponents;
 
     while (jcs.next_scanline < jcs.image_height) {
         jsamprow[0] = &data[jcs.next_scanline * row_stride];
-
         jpeg_write_scanlines(&jcs, jsamprow, 1);
     }
 

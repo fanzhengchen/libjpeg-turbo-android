@@ -37,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
 
         Bitmap bitmap2 = BitmapFactory.decodeFile(outputFile);
         imageView.setImageBitmap(bitmap2);
+
+//        bitmap.recycle();
+//        bitmap2.recycle();
     }
 
     /**
