@@ -12,8 +12,16 @@ extern "C" {
  * Method:    compressBitmap
  * Signature: (Landroid/graphics/Bitmap;IIILjava/lang/String;Z)I
  */
-JNIEXPORT jint JNICALL Java_com_xgn_ImageUtil_compressBitmap
+JNIEXPORT jint JNICALL Java_com_xgn_ImageUtil_compressBitmap__Landroid_graphics_Bitmap_2IIILjava_lang_String_2Z
   (JNIEnv *, jclass, jobject, jint, jint, jint, jstring, jboolean);
+
+/*
+ * Class:     com_xgn_ImageUtil
+ * Method:    compressBitmap
+ * Signature: (Landroid/graphics/Bitmap;ILjava/lang/String;Z)I
+ */
+JNIEXPORT jint JNICALL Java_com_xgn_ImageUtil_compressBitmap__Landroid_graphics_Bitmap_2ILjava_lang_String_2Z
+  (JNIEnv *, jclass, jobject, jint, jstring, jboolean);
 
 #ifdef __cplusplus
 }

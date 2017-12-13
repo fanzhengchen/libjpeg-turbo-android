@@ -13,4 +13,6 @@ public class ImageUtil {
     }
 
     public static native int compressBitmap(Bitmap bitmap, int w, int h, int quality, String outputFile, boolean optimize);
+
+    public static native int compressBitmap(Bitmap bitmap, int quality, String outputFile, boolean optimize);
 }

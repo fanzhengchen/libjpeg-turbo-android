@@ -38,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
 //        String outputFile = getFilesDir().getAbsolutePath() + File.separator + "abc.jpg";
         try {
             String outputFile = Environment.getExternalStorageDirectory().getCanonicalPath() + File.separator + "abc.jpg";
-            int result = ImageUtil.compressBitmap(bitmap, width, height, quality, outputFile, optimize);
+//            int result = ImageUtil.compressBitmap(bitmap, width, height, quality, outputFile, optimize);
+            int result = ImageUtil.compressBitmap(bitmap, 80, outputFile, optimize);
             System.out.println("fuck " + result);
 
             Bitmap bitmap2 = BitmapFactory.decodeFile(outputFile);
