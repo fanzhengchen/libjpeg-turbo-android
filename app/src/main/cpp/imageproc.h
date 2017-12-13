@@ -18,17 +18,20 @@
 typedef u_int8_t BYTE;
 
 
-jint compressBitmap(JNIEnv *, jclass, jobject, jint, jint, jint, jstring, jboolean);
+jint compressBitmap2(JNIEnv *, jclass, jobject, jint, jint, jint, jstring, jboolean);
+
+jint compressBitmap(JNIEnv *, jclass, jobject, jint, jstring, jboolean);
 
 const int MASK = 255;
 
 const char *CLASS_NAME = "com/xgn/ImageUtil";
 
 const JNINativeMethod jniNativeMethod[] = {
-        {"compressBitmap", "(Landroid/graphics/Bitmap;IIILjava/lang/String;Z)I", (void *) compressBitmap}
+        {"compressBitmap", "(Landroid/graphics/Bitmap;IIILjava/lang/String;Z)I", (void *) compressBitmap2},
+        {"compressBitmap", "(Landroid/graphics/Bitmap;ILjava/lang/String;Z)I",   (void *) compressBitmap}
 };
 
-struct error_msg {
+struct my_error_mgr {
     jpeg_error_mgr error_mgr;
     jmp_buf setjmp_buf;
 };

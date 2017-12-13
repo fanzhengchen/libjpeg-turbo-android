@@ -50,7 +50,7 @@ JNIEXPORT jint JNICALL JNI_OnLoad(JavaVM *vm, void *reserved) {
 }
 
 
-jint compressBitmap(JNIEnv *env, jclass jclazz, jobject bitmap, jint w, jint h, jint quality,
+jint compressBitmap2(JNIEnv *env, jclass jclazz, jobject bitmap, jint w, jint h, jint quality,
                     jstring outputFilePath, jboolean optimize) {
     LOGE("compress function called");
 
@@ -110,7 +110,7 @@ int compressJPEG(BYTE *data, int w, int h, int quality, const char *outputPath, 
     int nComponents = 3;
     jpeg_compress_struct jcs;
 
-    error_msg errorMsg;
+    my_error_mgr errorMsg;
     jcs.err = jpeg_std_error(&errorMsg.error_mgr);
 
     errorMsg.error_mgr.error_exit = error_exit;
