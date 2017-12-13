@@ -20,5 +20,4 @@ target_link_libraries( imageproc
                        log
                        jpeg
                        jnigraphics
-                       turbojpeg
                        )

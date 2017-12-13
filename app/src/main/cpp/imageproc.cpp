@@ -64,7 +64,7 @@ jint compressBitmap(JNIEnv *env, jclass jclazz, jobject bitmap, jint w, jint h, 
         return -1;
     }
 
-    if ((ret = AndroidBitmap_lockPixels(env, bitmap, (void **) &pPixels))) {
+    if ((ret = AndroidBitmap_lockPixels(env, bitmap, (void **) &pPixels)) < 0) {
         LOGE("AndroidBitmap lock Pixels failed %d", ret);
         return -1;
     }
@@ -73,26 +73,29 @@ jint compressBitmap(JNIEnv *env, jclass jclazz, jobject bitmap, jint w, jint h, 
     data = (BYTE *) malloc(w * h * 3);
 
     tmpData = data;
+    int format = bitmapInfo.format;
 
     for (int i = 0; i < w; ++i) {
         for (int j = 0; j < h; ++j) {
-            int color = *((int *) pPixels);
-            BYTE r = (color >> 16) & MASK;
-            BYTE g = (color >> 8) & MASK;
-            BYTE b = (color) & MASK;
-            *data = r;
-            ++data;
-            *data = g;
-            ++data;
-            *data = b;
-            ++data;
-            pPixels += 4;
+            if (format == ANDROID_BITMAP_FORMAT_RGBA_8888) {
+                int color = *((int *) pPixels);
+                BYTE r = (color >> 16) & MASK;
+                BYTE g = (color >> 8) & MASK;
+                BYTE b = (color) & MASK;
+                *data = b;
+                ++data;
+                *data = g;
+                ++data;
+                *data = r;
+                ++data;
+                pPixels += 4;
+            }
         }
     }
 
 
     AndroidBitmap_unlockPixels(env, bitmap);
-    LOGI("bitmap convert %d %d", w, h);
+    LOGI("bitmap convert %d %d %d", bitmapInfo.width, bitmapInfo.height, bitmapInfo.format);
 
     const char *path = env->GetStringUTFChars(outputFilePath, NULL);
     LOGI("file path %s", path);
@@ -134,16 +137,12 @@ int compressJPEG(BYTE *data, int w, int h, int quality, const char *outputPath, 
     jcs.arith_code = false;
     jcs.input_components = nComponents; // r g b all together is 3
 
-    if (nComponents == 1) {
-        jcs.in_color_space = JCS_GRAYSCALE;
-    } else {
-        jcs.in_color_space = JCS_RGB;
-    }
+    jcs.in_color_space = JCS_RGB;
 
     jpeg_set_defaults(&jcs);
     jcs.optimize_coding = optimize;
 
-    jpeg_set_quality(&jcs, quality, true);
+    jpeg_set_quality(&jcs, 90, true);
 
     jpeg_start_compress(&jcs, true);
 
@@ -169,4 +168,5 @@ int compressJPEG(BYTE *data, int w, int h, int quality, const char *outputPath, 
 
 void error_exit(j_common_ptr info) {
     info->err;
+    LOGE("error exit");
 }
