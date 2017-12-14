@@ -1,0 +1,1091 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/mark/leptonica-1.74.4/CMakeLists.txt",
+		"/home/mark/leptonica-1.74.4/src/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/home/mark/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/mark/leptonica-1.74.4/build --target clean"
+	],
+	"libraries" : 
+	{
+		"leptonica-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "leptonica",
+			"buildCommand" : "/home/mark/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/mark/leptonica-1.74.4/build --target leptonica",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/adaptmap.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/affine.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/affinecompose.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/arrayaccess.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/bardecode.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/baseline.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/bbuffer.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/bilateral.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/bilinear.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/binarize.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/binexpand.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/binreduce.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/blend.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/bmf.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/bmpio.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/bmpiostub.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/bootnumgen1.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/bootnumgen2.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/bootnumgen3.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/boxbasic.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/boxfunc1.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/boxfunc2.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/boxfunc3.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/boxfunc4.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/bytearray.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/ccbord.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/ccthin.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/classapp.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/colorcontent.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/coloring.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/colormap.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/colormorph.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/colorquant1.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/colorquant2.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/colorseg.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/colorspace.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/compare.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/conncomp.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/convertfiles.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/convolve.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/correlscore.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/dewarp1.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/dewarp2.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/dewarp3.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/dewarp4.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/dnabasic.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/dnafunc1.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/dnahash.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/dwacomb.2.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/dwacomblow.2.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/edge.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/encoding.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/enhance.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/fhmtauto.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/fhmtgen.1.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/fhmtgenlow.1.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/finditalic.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/flipdetect.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/fliphmtgen.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/fmorphauto.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/fmorphgen.1.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/fmorphgenlow.1.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/fpix1.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/fpix2.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/gifio.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/gifiostub.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/gplot.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/graphics.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/graymorph.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/grayquant.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/grayquantlow.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/heap.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/jbclass.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/jp2kheader.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/jp2kheaderstub.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/jp2kio.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/jp2kiostub.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/jpegio.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/jpegiostub.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/kernel.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/leptwin.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/libversions.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/list.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/map.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/maze.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/morph.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/morphapp.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/morphdwa.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/morphseq.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/numabasic.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/numafunc1.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/numafunc2.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pageseg.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/paintcmap.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/parseprotos.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/partition.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pdfio1.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pdfio1stub.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pdfio2.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pdfio2stub.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pix1.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pix2.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pix3.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pix4.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pix5.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pixabasic.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pixacc.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pixafunc1.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pixafunc2.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pixalloc.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pixarith.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pixcomp.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pixconv.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pixlabel.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pixtiling.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pngio.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pngiostub.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pnmio.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/pnmiostub.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/projective.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/psio1.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/psio1stub.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/psio2.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/psio2stub.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/ptabasic.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/ptafunc1.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/ptafunc2.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/ptra.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/quadtree.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/queue.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/rank.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/rbtree.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/readbarcode.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/readfile.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/recogbasic.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/recogdid.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/recogident.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/recogtrain.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/regutils.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/rop.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/ropiplow.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/roplow.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/rotate.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/rotateam.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/rotateamlow.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/rotateorth.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/rotateshear.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/runlength.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/sarray1.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/sarray2.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/scale.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/scalelow.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/seedfill.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/seedfilllow.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/sel1.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/sel2.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/selgen.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/shear.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/skew.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/spixio.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/stack.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/stringcode.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/strokes.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/sudoku.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/textops.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/tiffio.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/tiffiostub.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/utils1.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/utils2.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/warper.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/watershed.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/webpio.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/webpiostub.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/writefile.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/zlibmem.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -DHAVE_CONFIG_H -DLIBLEPT_EXPORTS -Dleptonica_EXPORTS -I../src -Isrc  -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/mark/leptonica-1.74.4/src/zlibmemstub.c",
+					"workingDirectory" : "/home/mark/leptonica-1.74.4/build"
+				}
+			],
+			"output" : "/home/mark/leptonica-1.74.4/build/src/libleptonica.so",
+			"toolchain" : "16643294847639450790"
+		}
+	},
+	"toolchains" : 
+	{
+		"16643294847639450790" : 
+		{
+			"cCompilerExecutable" : "/home/mark/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/mark/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

@@ -9,6 +9,7 @@
 #include "libjpeg-turbo/jpeglib.h"
 
 
+
 bool registerNatives(JNIEnv *env) {
     jclass clazz = env->FindClass(CLASS_NAME);
     LOGE("registering");
@@ -51,7 +52,7 @@ JNIEXPORT jint JNICALL JNI_OnLoad(JavaVM *vm, void *reserved) {
 
 
 jint compressBitmap2(JNIEnv *env, jclass jclazz, jobject bitmap, jint w, jint h, jint quality,
-                    jstring outputFilePath, jboolean optimize) {
+                     jstring outputFilePath, jboolean optimize) {
     LOGE("compress function called");
 
     AndroidBitmapInfo bitmapInfo;
@@ -69,40 +70,102 @@ jint compressBitmap2(JNIEnv *env, jclass jclazz, jobject bitmap, jint w, jint h,
         return -1;
     }
 
+    w = bitmapInfo.width;
+    h = bitmapInfo.height;
 
-    data = (BYTE *) malloc(w * h * 3);
+
+    data = (BYTE *)malloc(h * w * 3);
 
     tmpData = data;
     int format = bitmapInfo.format;
 
-    for (int i = 0; i < w; ++i) {
-        for (int j = 0; j < h; ++j) {
-            if (format == ANDROID_BITMAP_FORMAT_RGBA_8888) {
-                int color = *((int *) pPixels);
-                BYTE r = (color >> 16) & MASK;
-                BYTE g = (color >> 8) & MASK;
-                BYTE b = (color) & MASK;
-                *data = b;
-                ++data;
-                *data = g;
-                ++data;
-                *data = r;
-                ++data;
-                pPixels += 4;
-            }
-        }
+    int total = h * w;
+    for (int i = 0; i < total; ++i) {
+        int color = *((int *) pPixels);
+        BYTE r = (color >> 16) & MASK;
+        BYTE g = (color >> 8) & MASK;
+        BYTE b = (color) & MASK;
+        *data = b;
+        ++data;
+        *data = g;
+        ++data;
+        *data = r;
+        ++data;
+        pPixels += 4;
     }
-
 
     AndroidBitmap_unlockPixels(env, bitmap);
     LOGI("bitmap convert %d %d %d", bitmapInfo.width, bitmapInfo.height, bitmapInfo.format);
 
     const char *path = env->GetStringUTFChars(outputFilePath, NULL);
     LOGI("file path %s", path);
-    compressJPEG(data, w, h, quality, path, optimize);
+    ret = compressJPEG(tmpData, w, h, quality, path, optimize);
 
-    free(tmpData);
-    return 0;
+//    free((void *) path);
+    free((void *) tmpData);
+    return ret;
+}
+
+
+jint compressBitmap(JNIEnv *env, jclass jclazz, jobject bitmapColor, jint quality, jstring filename,
+                    jboolean optimize) {
+    AndroidBitmapInfo androidBitmapInfo;
+    BYTE *pixelsColor;
+    int ret;
+    BYTE *data;
+    BYTE *tmpData;
+    const char *dstFileName = env->GetStringUTFChars(filename, NULL);
+    //解码Android Bitmap信息
+    if ((ret = AndroidBitmap_getInfo(env, bitmapColor, &androidBitmapInfo)) < 0) {
+        LOGD("AndroidBitmap_getInfo() failed error=%d", ret);
+        return ret;
+    }
+    if ((ret = AndroidBitmap_lockPixels(env, bitmapColor, (void **) &pixelsColor)) < 0) {
+        LOGD("AndroidBitmap_lockPixels() failed error=%d", ret);
+        return ret;
+    }
+
+    LOGD("bitmap: width=%d,height=%d,size=%d , format=%d ",
+         androidBitmapInfo.width, androidBitmapInfo.height,
+         androidBitmapInfo.height * androidBitmapInfo.width,
+         androidBitmapInfo.format);
+
+    BYTE r, g, b;
+    int color;
+
+    int w, h, format;
+    w = androidBitmapInfo.width;
+    h = androidBitmapInfo.height;
+    format = androidBitmapInfo.format;
+
+    data = (BYTE *) malloc(w * h * 3);
+    tmpData = data;
+    // 将bitmap转换为rgb数据
+    for (int i = 0; i < h; ++i) {
+        for (int j = 0; j < w; ++j) {
+            //只处理 RGBA_8888
+            if (format == ANDROID_BITMAP_FORMAT_RGBA_8888) {
+                color = (*(int *) (pixelsColor));
+                // 这里取到的颜色对应的 A B G R  各占8位
+                BYTE b = (color >> 16) & MASK;
+                BYTE g = (color >> 8) & MASK;
+                BYTE r = (color) & MASK;
+                *data = r;
+                ++data;
+                *data = g;
+                ++data;
+                *data = b;
+                ++data;
+                pixelsColor += 4;
+
+            }
+        }
+    }
+    AndroidBitmap_unlockPixels(env, bitmapColor);
+    //进行压缩
+    ret = compressJPEG(tmpData, w, h, quality, dstFileName, optimize);
+    free((void *) dstFileName);
+    return ret;
 }
 
 int compressJPEG(BYTE *data, int w, int h, int quality, const char *outputPath, bool optimize) {
@@ -142,7 +205,7 @@ int compressJPEG(BYTE *data, int w, int h, int quality, const char *outputPath, 
     jpeg_set_defaults(&jcs);
     jcs.optimize_coding = optimize;
 
-    jpeg_set_quality(&jcs, 90, true);
+    jpeg_set_quality(&jcs, quality, true);
 
     jpeg_start_compress(&jcs, true);
 

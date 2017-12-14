@@ -6,20 +6,28 @@
     android:layout_height="match_parent"
     tools:context="com.example.mark.libjpeg_turbo_demo.MainActivity">
 
-    <TextView
-        android:id="@+id/sample_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/image_view"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:id="@+id/image_view_origin"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
         android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/image_view_java"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@id/image_view_origin" />
+
+    <ImageView
+        android:id="@+id/image_view_native"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@id/image_view_java" />
 
 </android.support.constraint.ConstraintLayout>

@@ -1,0 +1,69 @@
+Determining if files openjpeg-2.0/openjpeg.h exist failed with the following output:
+Change Dir: /home/mark/leptonica-1.74.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/mark/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_6a6c1"
+[1/2] Building C object CMakeFiles/cmTC_6a6c1.dir/CheckIncludeFiles.c.o
+FAILED: /home/mark/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot   -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -o CMakeFiles/cmTC_6a6c1.dir/CheckIncludeFiles.c.o   -c /home/mark/leptonica-1.74.4/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/mark/leptonica-1.74.4/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'openjpeg-2.0/openjpeg.h' file not found
+#include <openjpeg-2.0/openjpeg.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source:
+/* */
+#include <openjpeg-2.0/openjpeg.h>
+
+
+int main(void){return 0;}
+
+Determining if files openjpeg-2.1/openjpeg.h exist failed with the following output:
+Change Dir: /home/mark/leptonica-1.74.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/mark/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_82fab"
+[1/2] Building C object CMakeFiles/cmTC_82fab.dir/CheckIncludeFiles.c.o
+FAILED: /home/mark/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot   -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -o CMakeFiles/cmTC_82fab.dir/CheckIncludeFiles.c.o   -c /home/mark/leptonica-1.74.4/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/mark/leptonica-1.74.4/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'openjpeg-2.1/openjpeg.h' file not found
+#include <openjpeg-2.1/openjpeg.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source:
+/* */
+#include <openjpeg-2.1/openjpeg.h>
+
+
+int main(void){return 0;}
+
+Determining if files openjpeg-2.2/openjpeg.h exist failed with the following output:
+Change Dir: /home/mark/leptonica-1.74.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/mark/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_88775"
+[1/2] Building C object CMakeFiles/cmTC_88775.dir/CheckIncludeFiles.c.o
+FAILED: /home/mark/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot   -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -o CMakeFiles/cmTC_88775.dir/CheckIncludeFiles.c.o   -c /home/mark/leptonica-1.74.4/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/mark/leptonica-1.74.4/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'openjpeg-2.2/openjpeg.h' file not found
+#include <openjpeg-2.2/openjpeg.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source:
+/* */
+#include <openjpeg-2.2/openjpeg.h>
+
+
+int main(void){return 0;}
+
+Determining if the function fmemopen exists failed with the following output:
+Change Dir: /home/mark/leptonica-1.74.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/mark/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_2d1e1"
+[1/2] Building C object CMakeFiles/cmTC_2d1e1.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_2d1e1
+FAILED: : && /home/mark/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/mark/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/Android/Sdk/ndk-bundle/sysroot -isystem /home/mark/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=fmemopen  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/mark/Android/Sdk/ndk-bundle/platforms/android-14/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc CMakeFiles/cmTC_2d1e1.dir/CheckFunctionExists.c.o  -o cmTC_2d1e1  -latomic -lm && :
+/home/mark/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CheckFunctionExists.c:17: error: undefined reference to 'fmemopen'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
